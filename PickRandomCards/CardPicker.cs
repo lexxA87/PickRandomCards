@@ -1,8 +1,8 @@
 ﻿namespace PickRandomCards
 {
-    class CardPicker
+    public class CardPicker
     {
-        static Random random = new Random();
+        static readonly Random random = new();
 
         public static string[] PickSomeCards(int numberOfCards)
         {
